@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "price": 45,
+    "imgUrl": "public/photos/produkt.svg"
+  },
+  {
+    "id": 2,
+    "name": "Bluzka",
+    "price": 35,
+    "imgUrl": "public/photos/produkt.svg"
+  },
+  {
+    "id": 3,
+    "name": "Brylok",
+    "price": 20,
+    "imgUrl": "public/photos/produkt.svg"
+  },
+  {
+    "id": 4,
+    "name": "Car",
+    "price": 15,
+    "imgUrl": "public/photos/produkt.svg"
+  }
+]
