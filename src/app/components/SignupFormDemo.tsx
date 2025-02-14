@@ -3,6 +3,11 @@ import React, { useState } from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import {cn} from "@/app/lib/utils";
+import {
+  IconBrandGoogle,
+} from "@tabler/icons-react";
+import BottomGradient from "./BottomGradient";
+import GoogleLoginButton from "./GoogleLoginButton";
 
 export function SignupFormDemo() {
   const [formData, setFormData] = useState({
@@ -79,9 +84,13 @@ export function SignupFormDemo() {
           className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-input"
           type="submit"
         >
-          Sign up &rarr;
+            Sign up &rarr;
+            <BottomGradient />
         </button>
+        
       </form>
+      <GoogleLoginButton className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-black rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
+            type="submit" />
       {message && <p className="text-center text-sm text-red-500">{message}</p>}
     </div>
   );
