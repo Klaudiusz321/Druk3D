@@ -1,6 +1,7 @@
 📦 My Next.js Project
 
 Welcome to my Next.js project! This repository contains a modern web application built with Next.js (App Router), TypeScript, and various additional libraries for UI components, authentication, and database management.
+![screencapture-localhost-3000-2025-02-19-18_06_18](https://github.com/user-attachments/assets/2b0befba-5004-448e-98db-d991511148f0)
 
 🚀 Features
 
